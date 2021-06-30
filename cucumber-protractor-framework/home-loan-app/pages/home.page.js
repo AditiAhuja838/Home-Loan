@@ -79,6 +79,12 @@ module.exports = {
         waitForElementToBeClickable(buttonWithText);
         buttonWithText.click();
     },
+    getYourIncomeAmount: () => {
+        var borrowAmt = element(by.id('q2q1'));
+        var val=  borrowAmt.getText();
+        expect(val,0);
+    },
+
 
 };
 

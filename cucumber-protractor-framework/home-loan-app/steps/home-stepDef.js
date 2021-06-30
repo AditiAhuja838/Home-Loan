@@ -63,8 +63,14 @@ Given('I send Credit card limits as {String}', function (item) {
 When('I click {String} button', function (buttonText) {
     HomePage.clickButtonWithText(buttonText);
 });
-When('I should see borrowing limit {String}', function (buttonText) {
+Then('I should see borrowing limit {String}', function (buttonText) {
     HomePage.getBorrowAmount(buttonText);
 });
+
+Then('I should see Your income as {String}', function (text) {
+    HomePage.getBorrowAmount(text);
+});
+
+
 
 
