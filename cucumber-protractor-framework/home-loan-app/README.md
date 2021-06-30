@@ -11,7 +11,7 @@ Edit test-config.json for changing test data like user, password, base url etc
 
 Usage steps:
 
-1. Clone or download the cucumber-protractor-e2e-nab framework.
+1. Clone or download the home loan framework.
 
 2. Install protractor globally using
 
